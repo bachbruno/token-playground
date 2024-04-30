@@ -612,7 +612,166 @@
       }
     }
   },
-  "SEMANTICS/Dimensions": {
+  "SEMANTICS/Brand X/Schemes": {
+    "color": {
+      "base": {
+        "primary": {
+          "value": "",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#",
+          "type": "color"
+        },
+        "surface": {
+          "value": "#",
+          "type": "color"
+        },
+        "content": {
+          "value": "#",
+          "type": "color"
+        },
+        "danger": {
+          "value": "#",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#",
+          "type": "color"
+        },
+        "success": {
+          "value": "#",
+          "type": "color"
+        },
+        "information": {
+          "value": "#",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "SEMANTICS/Brand X/Typeset": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "fontWeights": {
+      "light": {
+        "value": "Light",
+        "type": "fontWeights",
+        "description": "Light"
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights",
+        "description": "Regular"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights",
+        "description": "Medium"
+      },
+      "semibold": {
+        "value": "Semi Bold",
+        "type": "fontWeights",
+        "description": "Semi Bold"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights",
+        "description": "Bold"
+      }
+    },
+    "letterSpacings": {
+      "tight": {
+        "value": "-2%",
+        "type": "letterSpacing"
+      },
+      "none": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "small": {
+        "value": "{scale.unitless.2xs}%",
+        "type": "letterSpacing"
+      },
+      "large": {
+        "value": "{scale.unitless.2xs}%",
+        "type": "letterSpacing"
+      },
+      "wide": {
+        "value": "{scale.unitless.xs}%",
+        "type": "letterSpacing"
+      }
+    },
+    "lineHeights": {
+      "auto": {
+        "value": "Auto",
+        "type": "lineHeights"
+      },
+      "xs": {
+        "value": "90%",
+        "type": "lineHeights"
+      },
+      "sm": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "200%",
+        "type": "lineHeights"
+      }
+    },
+    "fontSizes": {
+      "xs": {
+        "value": "{scale.unitless.xs}",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "{scale.unitless.sm}",
+        "type": "fontSizes"
+      },
+      "rg": {
+        "value": "{scale.unitless.md}",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "{scale.unitless.lg}",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "{scale.unitless.xl}",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "{scale.unitless.2xl}",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "{scale.unitless.3xl}",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "{scale.unitless.4xl}",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "{scale.unitless.5xl}",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "SEMANTICS/Brand X/Dimensions": {
     "spacing": {
       "0": {
         "value": "0",
@@ -921,6 +1080,7 @@
             "default": {
               "value": "{color.surface.screen}",
               "type": "color",
+              "description": "First layer on top of screen\n",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -929,12 +1089,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "First layer on top of screen\n"
+              }
             },
             "hover": {
               "value": "{color.surface.layer.01.default}",
               "type": "color",
+              "description": "First layer on top of screen\n",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -943,12 +1103,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "First layer on top of screen\n"
+              }
             },
             "disabled": {
               "value": "{color.surface.layer.01.default}",
               "type": "color",
+              "description": "First layer on top of screen\n",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -957,8 +1117,7 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "First layer on top of screen\n"
+              }
             }
           },
           "02": {
@@ -970,6 +1129,7 @@
             "hover": {
               "value": "{color.surface.layer.02.default}",
               "type": "color",
+              "description": "Second layer on top of a previous layer\n",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -978,12 +1138,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Second layer on top of a previous layer\n"
+              }
             },
             "disabled": {
               "value": "{color.surface.layer.02.default}",
               "type": "color",
+              "description": "Second layer on top of a previous layer\n",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -992,14 +1152,14 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Second layer on top of a previous layer\n"
+              }
             }
           },
           "03": {
             "default": {
               "value": "{color.surface.screen}",
               "type": "color",
+              "description": "Third layer on top of a second layer",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1008,12 +1168,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Third layer on top of a second layer"
+              }
             },
             "hover": {
               "value": "{color.surface.layer.03.default}",
               "type": "color",
+              "description": "Third layer on top of a second layer",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1022,12 +1182,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Third layer on top of a second layer"
+              }
             },
             "disabled": {
               "value": "{color.surface.layer.03.default}",
               "type": "color",
+              "description": "Third layer on top of a second layer",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1036,8 +1196,7 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Third layer on top of a second layer"
+              }
             }
           }
         },
@@ -1313,6 +1472,7 @@
             "default": {
               "value": "{color.surface.screen}",
               "type": "color",
+              "description": "Field on top of surface.screen",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1321,12 +1481,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of surface.screen"
+              }
             },
             "hover": {
               "value": "{color.surface.field.01.default}",
               "type": "color",
+              "description": "Field on top of surface.screen",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1335,12 +1495,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of surface.screen"
+              }
             },
             "disabled": {
               "value": "{color.surface.field.01.default}",
               "type": "color",
+              "description": "Field on top of surface.screen",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1349,8 +1509,7 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of surface.screen"
+              }
             }
           },
           "02": {
@@ -1362,6 +1521,7 @@
             "hover": {
               "value": "{color.surface.field.02.default}",
               "type": "color",
+              "description": "Field on top of $surface.layer.01",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1370,12 +1530,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of $surface.layer.01"
+              }
             },
             "disabled": {
               "value": "{color.surface.field.02.default}",
               "type": "color",
+              "description": "Field on top of $surface.layer.01",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1384,14 +1544,14 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of $surface.layer.01"
+              }
             }
           },
           "03": {
             "default": {
               "value": "{color.surface.layer.02.default}",
               "type": "color",
+              "description": "Field on top of $surface.layer.02",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1400,12 +1560,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of $surface.layer.02"
+              }
             },
             "hover": {
               "value": "{color.surface.field.03.default}",
               "type": "color",
+              "description": "Field on top of $surface.layer.02",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1414,12 +1574,12 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of $surface.layer.02"
+              }
             },
             "disabled": {
               "value": "{color.surface.field.03.default}",
               "type": "color",
+              "description": "Field on top of $surface.layer.02",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1428,8 +1588,7 @@
                     "space": "hsl"
                   }
                 }
-              },
-              "description": "Field on top of $surface.layer.02"
+              }
             }
           }
         }
@@ -1811,534 +1970,6 @@
       }
     }
   },
-  "BRANDS/Brand A/Surface": {
-    "color": {
-      "surface": {
-        "layer": {
-          "01": {
-            "default": {
-              "value": "{color.surface.screen}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "lighten",
-                    "value": "{modifier.darken.450} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "First layer on top of screen\n"
-            },
-            "hover": {
-              "value": "{color.surface.layer.01.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "First layer on top of screen\n"
-            },
-            "disabled": {
-              "value": "{color.surface.layer.01.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "First layer on top of screen\n"
-            }
-          },
-          "02": {
-            "default": {
-              "value": "{color.surface.screen}",
-              "type": "color",
-              "description": "Second layer on top of a previous layer\n"
-            },
-            "hover": {
-              "value": "{color.surface.layer.02.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Second layer on top of a previous layer\n"
-            },
-            "disabled": {
-              "value": "{color.surface.layer.02.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Second layer on top of a previous layer\n"
-            }
-          },
-          "03": {
-            "default": {
-              "value": "{color.surface.screen}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Third layer on top of a second layer"
-            },
-            "hover": {
-              "value": "{color.surface.layer.03.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Third layer on top of a second layer"
-            },
-            "disabled": {
-              "value": "{color.surface.layer.03.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Third layer on top of a second layer"
-            }
-          }
-        },
-        "overlay": {
-          "value": "rgba({color.surface.screen}, 0.6)",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{modifier.darken.400} ",
-                "space": "hsl"
-              }
-            }
-          }
-        },
-        "accent": {
-          "value": "{color.brand.primary.enabled}",
-          "type": "color"
-        },
-        "feedback": {
-          "success": {
-            "enabled": {
-              "value": "{color.base.success}",
-              "type": "color",
-              "inverse": {
-                "value": "{color.surface.feedback.success}",
-                "type": "color"
-              }
-            },
-            "hovered": {
-              "value": "{color.surface.feedback.success.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.100}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "pressed": {
-              "value": "{color.surface.feedback.success.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.300}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "loading": {
-              "value": "{color.surface.feedback.success.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.loading}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "disabled": {
-              "value": "{color.surface.feedback.success.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "warning": {
-            "enabled": {
-              "value": "{color.base.warning}",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "{color.surface.feedback.warning.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.100}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "pressed": {
-              "value": "{color.surface.feedback.warning.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.300}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "loading": {
-              "value": "{color.surface.feedback.warning.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.loading}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "disabled": {
-              "value": "{color.surface.feedback.warning.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "danger": {
-            "enabled": {
-              "value": "{color.base.danger}",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "{color.surface.feedback.danger.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.100}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "pressed": {
-              "value": "{color.surface.feedback.danger.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.300}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "loading": {
-              "value": "{color.surface.feedback.danger.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.loading}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "disabled": {
-              "value": "{color.surface.feedback.danger.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          },
-          "information": {
-            "enabled": {
-              "value": "{color.base.information}",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "{color.surface.feedback.information.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.100}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "pressed": {
-              "value": "{color.surface.feedback.information.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.300}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "loading": {
-              "value": "{color.surface.feedback.information.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.loading}",
-                    "space": "hsl",
-                    "color": "#ffffff"
-                  }
-                }
-              }
-            },
-            "disabled": {
-              "value": "{color.surface.feedback.information.enabled}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "field": {
-          "01": {
-            "default": {
-              "value": "{color.surface.screen}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of surface.screen"
-            },
-            "hover": {
-              "value": "{color.surface.field.01.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of surface.screen"
-            },
-            "disabled": {
-              "value": "{color.surface.field.01.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of surface.screen"
-            }
-          },
-          "02": {
-            "default": {
-              "value": "{color.surface.layer.01.default}",
-              "type": "color",
-              "description": "Field on top of $surface.layer.01"
-            },
-            "hover": {
-              "value": "{color.surface.field.02.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of $surface.layer.01"
-            },
-            "disabled": {
-              "value": "{color.surface.field.02.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of $surface.layer.01"
-            }
-          },
-          "03": {
-            "default": {
-              "value": "{color.surface.layer.02.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of $surface.layer.02"
-            },
-            "hover": {
-              "value": "{color.surface.field.03.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "{modifier.darken.25} ",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of $surface.layer.02"
-            },
-            "disabled": {
-              "value": "{color.surface.field.03.default}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "{opacity.state.surface.disabled}",
-                    "space": "hsl"
-                  }
-                }
-              },
-              "description": "Field on top of $surface.layer.02"
-            }
-          }
-        },
-        "screen": {
-          "value": "{color.base.surface}",
-          "type": "color",
-          "description": "The base color of the screen\n"
-        }
-      }
-    }
-  },
   "BRANDS/Brand A/Scheme": {
     "color": {
       "base": {
@@ -2390,113 +2021,180 @@
       }
     }
   },
+  "BRANDS/Brand B/Scheme": {
+    "color": {
+      "base": {
+        "primary": {
+          "value": "{color.sky.600}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.ambar.500}",
+          "type": "color"
+        },
+        "surface": {
+          "value": "#f5f7ff",
+          "type": "color"
+        },
+        "content": {
+          "value": "{color.neutral.950}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{color.red.500}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.ambar.500}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.green.600}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{color.sky.500}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "BRANDS/Brand B/Typeset": {
+    "fontFamilies": {
+      "primary": {
+        "value": "Poppins",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "Inter",
+        "type": "fontFamilies",
+        "description": "Number"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "c4070547790dcabf3c4816b9c0b29f3362abc6b0",
       "name": "Primitives",
-      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "PRIMITIVES/Palette": "enabled",
         "PRIMITIVES/Scale": "enabled",
-        "PRIMITIVES/Modifiers": "enabled",
-        "SEMANTICS/Dimensions": "disabled"
+        "PRIMITIVES/Modifiers": "enabled"
       },
+      "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "color.neutral.50": "dcc26f16eb7aaf36e3c21fb0a81a55a9bf35c3d8",
-        "color.neutral.100": "8b19e08f686fa3f737270871ad01b0e2254bc0e9",
-        "color.neutral.200": "9e55ed4c807624f84df78c7b94ad072615121cb2",
-        "color.neutral.300": "3d3c2d27435e1508766ede7b4c0fe9c6ee265a72",
-        "color.neutral.400": "e22c12562a2b1a89fdc3f178a44a6f49f53543a1",
-        "color.neutral.500": "79b399af80067598b1e406d4589894abb9ae3eff",
-        "color.neutral.600": "e58fe1e295be9030039bc3795f05f83742ab82da",
-        "color.neutral.700": "eb022f8f3319f419f206a18c3fcdbd127830f030",
-        "color.neutral.800": "67ea52e7be97d017c08ffead56cf61f3e81c6314",
-        "color.neutral.900": "1d09e191659e83874f58ea2efdc7e7f4bf7cf148",
-        "color.neutral.950": "7a161bf8107fb06a26a0774c8c49ca9e097af349",
-        "color.gray.50": "140de367ddb49a1609a96f5be33c3ba228452f41",
-        "color.gray.100": "2282d3d94015b9c04a7fd2feac653c901d9c25f9",
-        "color.gray.200": "4569d32ab69d4825e6788ea332bef335a74e654f",
-        "color.gray.300": "7bb13e0c22c3864f353138cd070f4bce36f86e9c",
-        "color.gray.400": "dcd44a1c6286db819e421aef747ae39d5a9c8446",
-        "color.gray.500": "db357116cf055262bd533123d188c565bbbc7539",
-        "color.gray.600": "a05668a9de8ff6b70b723e57bc4888a3ee961030",
-        "color.gray.700": "54c8c8705effeaa7e5b551d6cd268d8fa02c30c4",
-        "color.gray.800": "3cc99748be38dc762cfa23e5726fab8cc76a562c",
-        "color.gray.900": "e94133de6c1dc948313175aededca31d1fb40411",
-        "color.gray.950": "0c3a01f0aea8cb99ae63cf3478ba82138c2729a4",
-        "color.blue.50": "9a8ba0be92572ab4df8efda53e192a700a75af8a",
-        "color.blue.100": "efb36e9a83d96f4b4fc32200ba0000e0da8103dc",
-        "color.blue.200": "93475f32715b115f913ed9de29c7c2cf7375cda4",
-        "color.blue.300": "b0d65c664b1b177cd4b804d9242d216ccc5ec9c2",
-        "color.blue.400": "c4aa13f9f4de4f7e9e7da4c6f8c7a1d3c2d553f2",
-        "color.blue.500": "d69d3c5c563684eb0e5a1c3e4798481673c16f6e",
-        "color.blue.600": "6821ea4972f0f56bb603df4a2fe8a84ecf0f761f",
-        "color.blue.700": "1fd124d485595c653659e64bcafc24963c720709",
-        "color.blue.800": "cc852e03091d46394277f49c64f445e2be23b3db",
-        "color.blue.900": "09ef95d30650633cf9d6b1c65e7a2109a242c3fa",
-        "color.blue.950": "eb57475a7f1cd4e99c9cd044ccbc9a30875a5eb0",
-        "color.green.50": "8636861a319c2cf8530d0a330335e82b193f23db",
-        "color.green.100": "7eee3711839bcd95feff497b07a32a18707a0295",
-        "color.green.200": "8df874fa18b96150952a69df3e624c931a576902",
-        "color.green.300": "993c792b93c389e4d5830afaf09065ea333d97d8",
-        "color.green.400": "d25c35a312a20937fc50e2e1e2b2264b37166a79",
-        "color.green.500": "a9b67cb94d2aceda979bd8b638ececc028c66ac8",
-        "color.green.600": "6277670fec13bccbf806fe87750ad7c44f635b23",
-        "color.green.700": "d864111182baed80db781cad086ffe9e2770b794",
-        "color.green.800": "891b46515100e4252dd37cd666a6370d78914a9b",
-        "color.green.900": "bedd1e71ede9a249121c2224ab96a59cef6a4344",
-        "color.green.950": "4ee65f666306779e649f09b134bb6884f55c989b",
-        "color.ambar.50": "a2f15ecbe263cdb689b0865472d96afa45e632f4",
-        "color.ambar.100": "ecd89099e4d986654b50f2203fba2ee43c686fa2",
-        "color.ambar.200": "415c674e3fddd21dffc1a6bd83ea858b6cbe2fa6",
-        "color.ambar.300": "f5b10e948c43c07c9be0fc4a98576366e6c43c2d",
-        "color.ambar.400": "4f915d83d44c6df35e6030a1b67b2ba26f55d426",
-        "color.ambar.500": "17f5c980328ef4603927c2fdab1482ee1484fcfe",
-        "color.ambar.600": "ca342fcf64a24c2940edda5d501abae17280e0ee",
-        "color.ambar.700": "44f3e39b4c27ccf3dc575c7d112f6753d9ee077f",
-        "color.ambar.800": "040207e1e74f2ede17154d0d5842b0db4dff91be",
-        "color.ambar.900": "62883a50067b7533150604ed74e31ae4d97bb99f",
-        "color.ambar.950": "68983288fb7de33c83d6b620cd07bbf770d273a2",
-        "color.red.50": "91c6a5cbd3a537e8319f3831cd9d94c9c3199353",
-        "color.red.100": "3dfa9724be04a3211a26e3dfec80b93fe51fd75b",
-        "color.red.200": "6452766b4caff915f4718e93b65b173be5de8c47",
-        "color.red.300": "5fecd65566502c9a6ecfb0a1ad473b3c07685e50",
-        "color.red.400": "8c935fa19b83e4c0a8a89d656888f5586c78673b",
-        "color.red.500": "bdfb2ceb71651d7a96adefb0d7f763891058dee8",
-        "color.red.600": "83e299661797f01a94ef4884df63f08fea480cbe",
-        "color.red.700": "7e0da551ee8815faa4924d8a17c2c7db30ed3071",
-        "color.red.800": "06336e3bc47443dff7b1562cf70b18de785ab8c0",
-        "color.red.900": "7e3760e4c5b0bec3e65e23fe738d0d73d929d6c9",
-        "color.red.950": "a035339eb2fd2543867f4f17354f88e173055fde",
-        "color.sky.50": "3f987adba237052225c6f02193998359661607c5",
-        "color.sky.100": "99c81b02bdaa8a7d57ba61b19b7e01f2d41869de",
-        "color.sky.200": "0a9f99385c55a3753305a18cf06f1f663b3e7d8a",
-        "color.sky.300": "3ccbe1c12f010d97392c834f8bfeffd1b3907085",
-        "color.sky.400": "6afa762584b4eec72a4a085f7e5aaec8f0b02c3d",
-        "color.sky.500": "ecd51a252f2b21e404e632267a4321477a9d6ce1",
-        "color.sky.600": "55c802aa2687b68d2a1a8a58a75c9cf10cd258dc",
-        "color.sky.700": "c1797d7b67ce4ee91737e6e5f9073a551a6cf5e1",
-        "color.sky.800": "83f9fb5215181dcdb92ca46bfce39497117d1fdd",
-        "color.sky.900": "614ec4b04c12a9ffabde887d3ca702ab7632f3f8",
-        "color.sky.950": "2cfe36929cce3da3d3d893eee4cc724231319847",
-        "color.teal.50": "e5fdaf896e67dbabbbdbc9e3bf5ed1f7d8e39e42",
-        "color.teal.100": "cdb3659ae8c67e5b599bb55ffdef7ab572a7859d",
-        "color.teal.200": "05f06bbd7f8487b4b2d1e806d2ea3d7a10207d5c",
-        "color.teal.300": "ef6846e3062593bec836d7ad21145288eaadf890",
-        "color.teal.400": "6603ed4b7f099b374e90bd4eb973519e16cdc736",
-        "color.teal.500": "0e74a3a1a64834632ea296abc15fd0c7061f42c6",
-        "color.teal.600": "402b4511e3cb1f533dd4a92279e0820dc036503e",
-        "color.teal.700": "3e1e1f08b66de459447f9a2230e7ab1023bb41ed",
-        "color.teal.800": "b72785355fa3992b773605084720a95c1c783dae",
-        "color.teal.900": "641098706259dc8f2b3a4a1f92c2997c55d6d8bb",
-        "color.teal.950": "2133ffac96f5056aff098778c5eb2a1b615a81e0"
+        "color.neutral.50": "d4b48f2a8b993fe17bbc292624ab69cb09a00878",
+        "color.neutral.100": "ddc3c64cfd9fd2770cb66e79a133a1df33ad8368",
+        "color.neutral.200": "93caf8d37d45044d4ea8d733f47e319acb454a36",
+        "color.neutral.300": "72935591fab56230e0161e35e8c0976d5021fc87",
+        "color.neutral.400": "bcc536ff52e269c7a4fc206a5183bab2442c1f13",
+        "color.neutral.500": "45f48eae8eeef8d25f56dd16a2acba8ad17317fe",
+        "color.neutral.600": "cbbbbf160725d3ee2a39be1af9d6e64139cd4bbc",
+        "color.neutral.700": "769f7116fd95a66d01db3cb9a58d4c5f516c7216",
+        "color.neutral.800": "829e4ab51ea378865e33cbc216fb75febfbdee0c",
+        "color.neutral.900": "246fe7384180b68e92a5506545e5bcf62505da8e",
+        "color.neutral.950": "f04d480ea99504d10867c503cc40a1fc302afdff",
+        "color.gray.50": "52e8fe33736469cdea163c1347a6b19c19ce1b50",
+        "color.gray.100": "8611f81380c8d726194ad0477bc35963ca12f281",
+        "color.gray.200": "6ddb6e303bb6c4a12f8c1fd3fac98a6ec9d129aa",
+        "color.gray.300": "4bbc97dcf77c30d4535fe9cfb5692d01174ed5e3",
+        "color.gray.400": "7ebf3d99c389480de6fe468105b20f8fc5b80658",
+        "color.gray.500": "dba84d39389f3122b249aa701b77bdd0c7c49ae2",
+        "color.gray.600": "c8303254bcf6e37a967c9737b84a2aa4921db79d",
+        "color.gray.700": "f69091f4a8f4101df29a68a484e5c014264bcda4",
+        "color.gray.800": "c354963782bed2fde6588b74f27698d71913dfbf",
+        "color.gray.900": "f3373ee439db88c89511a10bb8340b8a0a50042a",
+        "color.gray.950": "79ebace2e5be436733a10e8e777176dfba6dc419",
+        "color.blue.50": "a1570946fc04936e45c21d6d571d9c216c9c88ab",
+        "color.blue.100": "a10825157e0e02b89f3b9453e4befa7d6640c38d",
+        "color.blue.200": "05d6c271222defe2671bc9cac6541a08700c2018",
+        "color.blue.300": "a9d8e7d3909334af13c5baae3cd5931c1d666b39",
+        "color.blue.400": "604d3cf30ff49264f29e9248014beea8c852ad2e",
+        "color.blue.500": "a5320a2a6e8ad344c8459298a1e639d91bc44ba2",
+        "color.blue.600": "9df92bd4f92fe5f08dc6fc600e6c6f6a79b86d2e",
+        "color.blue.700": "3c36021235c4f73f721dac25c92ecea0a9ee9bba",
+        "color.blue.800": "6b8dc19a6759347453ae71a8f820c77bea5c971c",
+        "color.blue.900": "dabfcd1d563d15cb4199416d6c9e9870bce3c52d",
+        "color.blue.950": "ea0ce2369963e945718ebf59f5d72f228504bf5c",
+        "color.green.50": "817c134a01d505abd1aa2fa448077fda95fe43fb",
+        "color.green.100": "1671e5a8221b3b6e9b3de081e1cde6a26194b94b",
+        "color.green.200": "7837e90ef4ee7f62a4586ef184e0f879b789b933",
+        "color.green.300": "e5ff0edd48c8490836c0ea8d3d01bb3f11721891",
+        "color.green.400": "139e16f1520c86ed7fad68ea3c5ed84d2fca3e8d",
+        "color.green.500": "d5b6b03686c378fbf600add9632bdc77e2b3bc6e",
+        "color.green.600": "335d7f0775626b91c68ad5492b8f4c5a12df9424",
+        "color.green.700": "af654e2e0f9a8c2144e46e9ebf5e4a9114abfcb1",
+        "color.green.800": "7d54c556b42a0eac3dbc4f2d29a358a6d544bc7b",
+        "color.green.900": "36306555d330ab102cd2e45ff2e6d0bc69d7dfbf",
+        "color.green.950": "29cb963131161ea0ca1f777a56114f3dbdc3e4cf",
+        "color.ambar.50": "308f8a5d88110f3d415b46526deaa81d1b56b435",
+        "color.ambar.100": "ce7c45c5b55fe99c1f9355333ba78d69de346d8b",
+        "color.ambar.200": "0892dcb4424c445267e6854ec2ade25029323fcd",
+        "color.ambar.300": "b5c909bcc1e5db4451ce3198385f5071fe55136a",
+        "color.ambar.400": "f716dbaebd6dce2936e48bd28029169aee296107",
+        "color.ambar.500": "2ff48fe9c6033524508d20ecce113fd5ccc12624",
+        "color.ambar.600": "e620c40a8ed89e45f62b5b89b4c8c826565846d9",
+        "color.ambar.700": "9c8c56ec0eee8a1f3e249f50ef01f2f45df34721",
+        "color.ambar.800": "006d276f0421517b8bbb30bd198b7aa70c8ce65b",
+        "color.ambar.900": "c5bae703be1b374d4dc95afd5aec8c78745c4662",
+        "color.ambar.950": "4207d7d9f15e10aeb750d8a6c1bf982cd9c61c89",
+        "color.red.50": "f7fb3bf3af8b0ca7aecded3ec5ff36d0421cde5d",
+        "color.red.100": "8fb47c152893bd1ba070ff8bf31b8c44f964a065",
+        "color.red.200": "76808efc3c7db47bf69d7dbcf7f1b4c3bace10ad",
+        "color.red.300": "90087b8672567583ed94a6881e175f05e4c35ed3",
+        "color.red.400": "a109592e95e10d9d168d1102db167315892dcde8",
+        "color.red.500": "7e966ddfe6a15bd29cd3761b864f59e228d83fd0",
+        "color.red.600": "6d404bafb59ed25d24a302ff1515502820964e60",
+        "color.red.700": "007a6fe98ee5f88956f49344f18068bb5d4c460d",
+        "color.red.800": "7b06f579d4113133f61d9f904782bc7d3409d941",
+        "color.red.900": "2952003df935875e8b67ae371d846747e54fadde",
+        "color.red.950": "c496c0b1ef00ca51d7467f64b1a6f3b0c60a73b5",
+        "color.sky.50": "effe28f8c073553af0f2aa607423a65390b04954",
+        "color.sky.100": "7caa20ea748f14a339700400b1fe251506bcefca",
+        "color.sky.200": "b1ce53232fddffbce187f3bfc9245dfa5395952e",
+        "color.sky.300": "e678f3874220fb7a20760c6dc5a328556e52aeec",
+        "color.sky.400": "2eed73d8875ade7e5309bb67000ba6c8a62e862d",
+        "color.sky.500": "bb54d38edfbd939c83830f60bd602ec1cd54e17e",
+        "color.sky.600": "c3f00e6573deaaef5272419772a29efd5d02e626",
+        "color.sky.700": "681c7d74585a84f12c82e3da71d3af17cf6a25e6",
+        "color.sky.800": "64147e93177851115ca577eac86400ed7aa88f24",
+        "color.sky.900": "609922ea18eb1803a2073bb6fb7af76897c8c3d5",
+        "color.sky.950": "61842a6def5458a07de0f235ad1d1faa4eadf76b",
+        "color.teal.50": "c92cc837efbf63e3b6fff1d721094cfbadc62f27",
+        "color.teal.100": "acb4c3e0cd5b881b12e6f8cdf5bb74bfe2b9128c",
+        "color.teal.200": "9d18c29cfa4713341069d3b2158e4a331f6464a1",
+        "color.teal.300": "9a4a1a610bc1b3c0882bf8820362a3bbe8338469",
+        "color.teal.400": "e226dd6a823b9d99d86aed41036f2623cc9ac9e1",
+        "color.teal.500": "f6b966fb18f7150b19a325c0bb54a0d8dc931e0c",
+        "color.teal.600": "e51aa5fcc1cac7bffc3f0017a8fd42315234eb3f",
+        "color.teal.700": "1b6e1e31be1dea0ab2464c69e8db7bd01547f1dc",
+        "color.teal.800": "d3a22cb3e5afd301d1f5431222e4e0aec08d6fea",
+        "color.teal.900": "05aa215eda7ac56afe904e43d22339f2f1b59fbe",
+        "color.teal.950": "264dfad91cc0a7d38d937ed6220ba99f7266ccaa"
       },
-      "$figmaCollectionId": "VariableCollectionId:6:2",
-      "$figmaModeId": "6:0"
+      "$figmaCollectionId": "VariableCollectionId:2204:72125",
+      "$figmaModeId": "2204:18"
     },
     {
       "id": "181fce3b0cf1ba27ecdff3f9b238ca5f2bd75171",
       "name": "Brand A",
+      "group": "semantics",
+      "selectedTokenSets": {
+        "SEMANTICS/ Typeset": "enabled",
+        "SEMANTICS/Brand X/Schemes": "enabled",
+        "SEMANTICS/Brand X/Typeset": "enabled",
+        "SEMANTICS/Brand X/Dimensions": "enabled",
+        "SEMANTICS/Presets": "enabled",
+        "SEMANTICS/Brand": "enabled",
+        "SEMANTICS/Surface": "enabled",
+        "SEMANTICS/Foreground": "enabled",
+        "SEMANTICS/Border": "enabled",
+        "PRIMITIVES/Palette": "source",
+        "PRIMITIVES/Scale": "source",
+        "PRIMITIVES/Modifiers": "source",
+        "BRANDS/Brand A/Scheme": "enabled",
+        "BRANDS/Brand A/Typeset": "enabled"
+      },
       "$figmaStyleReferences": {
         "typography.display.lg": "S:a7f097732bfb5ff838042a942b451162384ba7b2,",
         "typography.display.md": "S:4b6ccd645b55a5604b547ea3bad8798f62eaacae,",
@@ -2508,8 +2206,132 @@
         "typography.caption": "S:a5423af4298deb3e595341736b7e12e222d139bf,",
         "typography.label": "S:262e397951000e0f44731f942542a12c6bbabd7e,"
       },
+      "$figmaVariableReferences": {
+        "color.base.primary": "2a880c33e623ecb33565f95c2fea274a958db2b6",
+        "color.base.secondary": "6fa8a4cb43e2247e8a8094adce15ac2335405873",
+        "color.base.surface": "208050516e151d6c6004a292408340e84192a2f0",
+        "color.base.content": "b3c0dbccb07691f45e13e49aadd60f6894503985",
+        "color.base.danger": "376cb185a987282166f3727289e639e58b891739",
+        "color.base.warning": "c1426ee2f6fac6f9546e42622c981013712ab0f3",
+        "color.base.success": "304163dad8e950f9b7ee1694defd8722b8c9d7f7",
+        "color.base.information": "bb4f66c2f4e060e3639920fb3ef8c1b3fab915e7",
+        "color.surface.layer.01.default": "b3dd818721db9ca6413ffede7af861435825b048",
+        "color.surface.layer.01.hover": "b960edf6cf511e54ac1edd64b5583a9387040eed",
+        "color.surface.layer.01.disabled": "8a432b61b54d95a0cb87aeb23a97f00b49b8a67c",
+        "color.surface.layer.02.default": "34427c8ca2dc5cbe6e755fd98520f31b961a95ae",
+        "color.surface.layer.02.hover": "e793806d82766e3947b604d17d1d92a0d02cd297",
+        "color.surface.layer.02.disabled": "fdd0dff0407c38fd8a7ca10700faf5e68f481612",
+        "color.surface.layer.03.default": "55289323400fe66fb076257224515bd152e8198d",
+        "color.surface.layer.03.hover": "d8a64759be6ac28dad19d2a6a6345d490b77321a",
+        "color.surface.layer.03.disabled": "90d96c02909cf335ee1e6ef6f417d03df1adc0f4",
+        "color.surface.overlay": "2468f88661a752423a045637f7facbff38410f94",
+        "color.surface.accent": "acadbd6213b4c0fa4d52e78c743f4f131ea8a2db",
+        "color.surface.feedback.success.enabled": "ad9a14567f507a5b653345c209c9f4bea340bab8",
+        "color.surface.feedback.success.hovered": "473e4d04a27353ffc9ff3d05b4d64ddd67ffc5c9",
+        "color.surface.feedback.success.pressed": "dead5a8726ec8929f6bf73e782013616fac31a1e",
+        "color.surface.feedback.success.loading": "f908c64de8daa15bb88f28972970880142d1cbc6",
+        "color.surface.feedback.success.disabled": "8af23ff899d8690983078fedee6d71ebd8d6dab7",
+        "color.surface.feedback.warning.enabled": "8b63c3dd5e0c23d9bd4dc4377a09f9a4d84645d6",
+        "color.surface.feedback.warning.hovered": "5c0c96619dcf646ff0b722b53fc37e0ec5039de4",
+        "color.surface.feedback.warning.pressed": "e4d45768e93ab44b18b6d6609e3ee867c22fca17",
+        "color.surface.feedback.warning.loading": "67a0916b2d27d54f88d692472c72874f96a9b37a",
+        "color.surface.feedback.warning.disabled": "a0a5495d43e25ab4cfbd61408f8152b3ea2459da",
+        "color.surface.feedback.danger.enabled": "028ed8ded0a9ad7eba5f9625ed5470004091e623",
+        "color.surface.feedback.danger.hovered": "7d550abd9f2053adbb48d49cb3a8a43c625bd616",
+        "color.surface.feedback.danger.pressed": "46de124173ef74e8a5ff6589021ac05389ad58b4",
+        "color.surface.feedback.danger.loading": "2b9850ba8e46f9c7a05afb07af58ba2e29596bc0",
+        "color.surface.feedback.danger.disabled": "7d9f14b8fca49ebc4fb43e7cf42fbfebec85d246",
+        "color.surface.feedback.information.enabled": "96cfe6cd987793dcdf23570d517930106816899c",
+        "color.surface.feedback.information.hovered": "f0a545c3e90e41e47f2ecc917c003f3e115d45cd",
+        "color.surface.feedback.information.pressed": "3feb0b9e1c710831b7907dc50a42ef3ceb532fd0",
+        "color.surface.feedback.information.loading": "bd14c01abb0ed341240fe30af9c4d55f1c9c7d00",
+        "color.surface.feedback.information.disabled": "b15b18631181a086f80eb6503b06c97ffce8f90e",
+        "color.surface.field.01.default": "3c705e421cd1ebf384e28f6574c3b556cf174df0",
+        "color.surface.field.01.hover": "56a838c8bbbdbc53f76537a30bd930101337093b",
+        "color.surface.field.01.disabled": "2298c5916aedba05618b7b1ff37b5259af752060",
+        "color.surface.field.02.default": "986472201efab0d20273a072e8dd30bf8a6a5129",
+        "color.surface.field.02.hover": "a78435163047ed589b5ccf8d62b875d8544fd22f",
+        "color.surface.field.02.disabled": "b9cb0e8174c70d827126ff0421f9d4ddaaaa3fa0",
+        "color.surface.field.03.default": "ef26a091a8f1a71853a5752419c662fcdbfa3971",
+        "color.surface.field.03.hover": "1b7640ef2ae4edf738b9f9f52e401ce9a8d62946",
+        "color.surface.field.03.disabled": "2ab506c67d681ec6bf23f20a07dbd2fb65b323a9",
+        "color.surface.screen": "251caa383d249c083626a37e56ea96fb53109ecf",
+        "border.interactive.enabled": "2afe1073a2d1cde13e90d365d9a78094540f1a3a",
+        "border.interactive.pressed": "4bb1fcb4f6226a6f15e580d3bcd8a6f526d6e494",
+        "border.interactive.disabled": "c45fe24f3c3bb89ed143e78db2b1f25134b46555",
+        "border.strong.enabled": "43df25cb61585e3784d0fbdf721bd8c537b393c3",
+        "border.strong.hovered": "0d951935fdb776e02aeb54323e6456ff23b8fc32",
+        "border.strong.pressed": "5af94439b09678ce05028605090dc2ac376cfc4d",
+        "border.strong.loading": "f564e4dfd66e604c8812adb2d7b700697425dec6",
+        "border.strong.disabled": "84e58416f8e056c67d75c54461f84ee310fd7714",
+        "border.subtle.enabled": "515f58fb4bfea9d80be16d6d1dd6ed81f803ec89",
+        "border.subtle.hovered": "16e83378d77234ce11acbe2cf8a177e130100cd8",
+        "border.subtle.pressed": "636e08d9d04752375c0ef06a0c889544ffdc246d",
+        "border.subtle.loading": "bc25f9f39aa05face70d2535ba1df3db53273de7",
+        "border.subtle.disabled": "a6451d83114c3efa0b0eae6720db0aeaf312097a",
+        "border.feedback.success": "10f198de2bd806fb7635862dfcaf7ac42438d8b2",
+        "border.feedback.warning": "8265030e08d24e529cba7b88f379165bc3de87ef",
+        "border.feedback.danger": "7a0af02b040d1a946f1a65b78bdd9d161648c02b",
+        "border.feedback.information": "d61d83a29208b49692c17de905f07f0d375ebb44",
+        "color.foreground.text.primary.enabled": "d3d4f883d5cc3c82ea66cf88fe1c1a8a4e37a56a",
+        "color.foreground.text.primary.disabled": "c69ee3ba7095c0d7cf158899757457bd26f3c392",
+        "color.foreground.text.secondary.enabled": "fe0e72350c1cea6c2433a84aa1e4ed423f77dc15",
+        "color.foreground.text.secondary.disabled": "76ae7b6d6eb818b9d2ca73197ae6eb30482936ef",
+        "color.foreground.text.on-color.enabled": "5584fbc150d74a9d1a63c2c70ead5f71ba1d4374",
+        "color.foreground.text.on-color.disabled": "5bbf5a509ac5448a83938ab7977bdd5a3ea1fcfd",
+        "color.foreground.text.placeholder": "7e7c0bb3784c6459fdb301a79f4d6c01796e8f32",
+        "color.foreground.text.helper": "c0d15c70ebb66ffe767421484a7e9b00552188c3",
+        "color.foreground.text.interactive": "c8776059287750fc8ebed4de8958cedb6bfa990e",
+        "color.foreground.accent": "3dd912b2904b12cdc7a501b7c417d33f6da2ecac",
+        "color.foreground.feedback.success": "065aacc593aa1c8dc8893f1632cdf1acde22629c",
+        "color.foreground.feedback.warning": "711cdb437de2124e76efec50161ed8aeda9a624a",
+        "color.foreground.feedback.danger": "e8ac37fa21bcd08d5c7821d3e5ef4b454fb30fac",
+        "color.foreground.feedback.information": "184d844319482fc040ca04c7bb55a444ed7de831",
+        "color.brand.primary.enabled": "d119662f3bf8d32e28f9ab789d4bf0a119e8a78c",
+        "color.brand.primary.hovered": "b03c146eb046dffeb0f3f3a95fc3f79e3a25a00b",
+        "color.brand.primary.pressed": "b37eb758656d43a9b9773ad10be5cd1a6f1e8a93",
+        "color.brand.primary.loading": "4a8c460e3c1f0b22e64f50baf6ce6eb85999b3dd",
+        "color.brand.primary.disabled": "c43c1f772da2ad0cfa4ff4e0e7f319d1c55d8204",
+        "color.brand.secondary.enabled": "5a21b708ccabeeda016046332c83e4497d111309",
+        "color.brand.secondary.hovered": "6bf6af4ef1963ade1d90672a437660c73cca754c",
+        "color.brand.secondary.pressed": "7baaae3d89fe239043d890870bac4e295b065261",
+        "color.brand.secondary.loading": "6ffd08c879d23ffe271585c8b5ade63b348035bd",
+        "color.brand.secondary.disabled": "c3f2549834c3b5a784be9104cc383c50fb947290",
+        "spacing.0": "7cd43a1eb554e9cd52beef18c86e3f74aafb2c22",
+        "spacing.25": "cb835205ce0bc96e45d6f559e4b9551f0bc494ad",
+        "spacing.50": "598e3d0044fbf5d326dde4d5f36fbede3505f5b9",
+        "spacing.100": "5e67432b3ac95961e66fbaedec597e6091069f1d",
+        "spacing.150": "cfb46684041c9889d45913c56d9af58fea419df4",
+        "spacing.200": "6b8eca77acd00d78fd2608e7065fae364c2af3d7",
+        "spacing.250": "6f9d691ad9244404eab57701f244bda1733bcbec",
+        "spacing.300": "e5b52491bbfd137f418b71d80455e60464355806",
+        "spacing.400": "e2e826f70f89d5dab31a84b4679af42a7f75f415",
+        "spacing.500": "fef0a7e90bbbb254baef892b4920afc5ce2994cc",
+        "spacing.600": "c0364a849e75bafb078e358ae5e7e375fcacb706",
+        "spacing.750": "8aad959bac6d9ef81510a6674287138ccf9d7dbd",
+        "spacing.900": "6eccd6895d05b8ae343844460e5fe8687b2b644e",
+        "spacing.1100": "8e51e1e423cf60bb410334ac90de9e1d7f9a6061",
+        "borderRadius.100": "b36c1e1c36e4d43ae016da458e93d688cb610470",
+        "borderRadius.200": "1402cc5cfdffe7b060d7a2a36f66ec4ccd237e7f",
+        "borderRadius.300": "7cd592e26dda59edbd41d0ff64fd454e15b9ec20",
+        "borderRadius.400": "7e9c5fbc650d106bb68ed6a5a43a8f67a8312b3d",
+        "borderRadius.500": "16ece2d13c6eee79d1dbb40070e45ff687415cfd",
+        "borderWidth.100": "ca256541b36f44b333ac2c1bdc4a86a177f0a47b",
+        "borderWidth.200": "7c76604bf7352e4bb76b04acb306912dd895c5b1",
+        "borderWidth.300": "0f1e6f6b68c1541e991f63d3dfadf6720c721b60"
+      },
+      "$figmaCollectionId": "VariableCollectionId:2209:81503",
+      "$figmaModeId": "2209:33"
+    },
+    {
+      "id": "110e00c27c5bb80e632bb121d17863dae7437f6e",
+      "name": "Brand B",
+      "group": "semantics",
       "selectedTokenSets": {
         "SEMANTICS/ Typeset": "enabled",
+        "SEMANTICS/Brand X/Schemes": "enabled",
+        "SEMANTICS/Brand X/Typeset": "enabled",
+        "SEMANTICS/Brand X/Dimensions": "enabled",
         "SEMANTICS/Presets": "enabled",
         "SEMANTICS/Brand": "enabled",
         "SEMANTICS/Surface": "enabled",
@@ -2518,128 +2340,126 @@
         "PRIMITIVES/Palette": "source",
         "PRIMITIVES/Scale": "source",
         "PRIMITIVES/Modifiers": "source",
-        "BRANDS/Brand A/Surface": "enabled",
-        "BRANDS/Brand A/Scheme": "enabled",
-        "BRANDS/Brand A/Typeset": "enabled",
-        "SEMANTICS/Dimensions": "enabled"
+        "BRANDS/Brand B/Scheme": "enabled",
+        "BRANDS/Brand B/Typeset": "enabled"
       },
+      "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "color.base.primary": "dd235e2a64694b6d978632baa9f86355fea3d0fd",
-        "color.base.secondary": "8847738bebbe963de8f5e09886586ca1f9ef2478",
-        "color.base.surface": "a8744d39cd6d6a4c3f28a58482b440b96383b7fd",
-        "color.base.content": "7ea7fab82a462ece676493f13309e5c0aecc3cdd",
-        "color.base.danger": "ec2ca3613d59dcaae32c9c46c722097740eb006b",
-        "color.base.warning": "e1a95d40a1fcb5d465514a04ca7fef55c8d5bc4e",
-        "color.base.success": "57e9f23aef5a842f2dff907ff78b2ab00fbdbce3",
-        "color.base.information": "eb4c5f058e4288f9db25fb7b9b2d6c0d54cf525f",
-        "color.surface.layer.01.default": "2f1dbfd4a860bd13c8f0253c69fed10132cbe62f",
-        "color.surface.layer.01.hover": "567c1a97a84dcbcc79cc070423ea6cbc7455a047",
-        "color.surface.layer.01.disabled": "a874e40a16e438cd5bf5f1ac555840bd93a06383",
-        "color.surface.layer.02.default": "777e42f36ee8488825b7faaf023857a955dd0add",
-        "color.surface.layer.02.hover": "b07136c1f151703e76781066060b93178cc03305",
-        "color.surface.layer.02.disabled": "b25becfb608e3c1b90bf5303a1571023e04f2e2f",
-        "color.surface.layer.03.default": "68638a5e0af2a524b4092ece5b3fb0ddae1c659b",
-        "color.surface.layer.03.hover": "1b8a34db0b710a393e4076ad77a1abc1bd99f96c",
-        "color.surface.layer.03.disabled": "86a58527870622b5776354b86f452ff2771cd71f",
-        "color.surface.overlay": "e31470db3077071687882f68d71535b686e6aef7",
-        "color.surface.accent": "206704a655e685bb19b1387f98ad2b158872426f",
-        "color.surface.feedback.success.enabled": "156fe2698ff613ba27ceb7b0ad4bf1362488b73f",
-        "color.surface.feedback.success.hovered": "430c6a83fddc3b3e1dd4028c887b54deac09bdea",
-        "color.surface.feedback.success.pressed": "d617448f76ebf3a3bbff5f42628a5740ed984343",
-        "color.surface.feedback.success.loading": "93a741b6f6c64c0e3aa42beffae9828bc265797f",
-        "color.surface.feedback.success.disabled": "480db5b6921dac7eb23d617a0162d35ee9a1a4c2",
-        "color.surface.feedback.warning.enabled": "65e722f3ba73fd615f46ea3d7a07a85afd76f0c7",
-        "color.surface.feedback.warning.hovered": "4dd557d6f9c0bcfeb10ea1383a8442f6bdf77ebd",
-        "color.surface.feedback.warning.pressed": "7d5f662555274356cdd678ff61eb656a8ab3ddb3",
-        "color.surface.feedback.warning.loading": "4d3e09e86707d47e056e4ae171f186a57c2cb6a7",
-        "color.surface.feedback.warning.disabled": "ccbbdb5ec544ea2d7531a9b5aa85b3582f68828a",
-        "color.surface.feedback.danger.enabled": "c823db0cb65eeec9c06ff19be07895f5fe7099e7",
-        "color.surface.feedback.danger.hovered": "09d73dc281a48614db5f709565605deda98345d1",
-        "color.surface.feedback.danger.pressed": "3d956e059c319d954ebd1bb3a49097aefc46d410",
-        "color.surface.feedback.danger.loading": "7ba4125f776ff4755baca39cf712bc2f4f7104d4",
-        "color.surface.feedback.danger.disabled": "ddc9de74ec25b6ca45e7bc7679d4c2f6ee0cde3b",
-        "color.surface.feedback.information.enabled": "001d0df05a13ee1d224cf17827dcdb9912f556cb",
-        "color.surface.feedback.information.hovered": "5ccbd73607f1d7f103630e24cfbbc0dc2519f12b",
-        "color.surface.feedback.information.pressed": "98f265f0e825eb2079adc57afd2a50b51477dff5",
-        "color.surface.feedback.information.loading": "d48ff80d98bc28fd6d94add6e5f1a93e15d21671",
-        "color.surface.feedback.information.disabled": "7f79a44e8cffc163b54036d6e3f2178d38efe5aa",
-        "color.surface.field.01.default": "560a769db6e64b6b7f120e5bfe320a160acae36d",
-        "color.surface.field.01.hover": "650b22adab0a70487d5a21a92f767d78c601bced",
-        "color.surface.field.01.disabled": "a3e487b09275dc3ae9ccb34b141a86ab0accbafd",
-        "color.surface.field.02.default": "c45342779549c8f13c17d689cd8836465647b12e",
-        "color.surface.field.02.hover": "e76dcddf1d00628016fa59bc4d73574aeab8df5d",
-        "color.surface.field.02.disabled": "0fc8d22c756e1aa6800f652637197119e8da801e",
-        "color.surface.field.03.default": "065268a1acf67200d2d9d7869382bd74f40cf3fa",
-        "color.surface.field.03.hover": "78ae206fc7b2a59acfb6c031145f1bbf5db88c73",
-        "color.surface.field.03.disabled": "51a69fde8756ada4680fa3647e15e11ee33d4de1",
-        "color.surface.screen": "91facf8f1425d1a5a1665a79c9cb3400a253a57a",
-        "border.interactive.enabled": "c444c03822255a4e71a4669b7034aa1d29d77ade",
-        "border.interactive.pressed": "8d339fa486b13d0c18407e5959c65a9ecd655076",
-        "border.interactive.disabled": "e93d527918eb36b211e835d48b69cdac05e94594",
-        "border.strong.enabled": "8b414c122ee2d7ccd853b66e3ffb2544390bf9cf",
-        "border.strong.hovered": "7f3b581720957a57a0874e8dddcd603f2b56f4eb",
-        "border.strong.pressed": "0a487fa15f3c768e0a1a2283f29ef6ece92d8347",
-        "border.strong.loading": "954db7b083414a901c02da9c345380b759f1dad4",
-        "border.strong.disabled": "db4f3e4343a97fec49ed81e3051c7cdef5f2dbb6",
-        "border.subtle.enabled": "34044eccf0296efa0ab13f4034d507be314177c0",
-        "border.subtle.hovered": "92ed0bad154cdf70ce71bbc668a3abf3e99ba599",
-        "border.subtle.pressed": "1adeb5aaa6a4afe125faf6f49839d151ac379cbd",
-        "border.subtle.loading": "ce1c16864b8020dc936fdc87ab71c635ebf6e368",
-        "border.subtle.disabled": "9fc4df3098de0570e482486a0487b06e932b4878",
-        "border.feedback.success": "2423dcc9af6770126a88a8dc521112e47a9fcd2d",
-        "border.feedback.warning": "0c9672f794061e5731c70591adaee2c4eb1cd582",
-        "border.feedback.danger": "c1f4cf395ba85e7c56c66b5d527bb9318f2615cf",
-        "border.feedback.information": "f0660b4f8b0f4e1350f2cd6a9ab568813b24b2d9",
-        "color.foreground.text.primary.enabled": "74ced41fa275a2a18bb77f6fb833bdb1016802fc",
-        "color.foreground.text.primary.disabled": "fcc747fec9b4b4e379cb44405dddcb8a75e790ea",
-        "color.foreground.text.secondary.enabled": "b1a4b3e7b129fda3125c5a476b956731c3253403",
-        "color.foreground.text.secondary.disabled": "da2020ae234776f4dc71b4a40b19753350942357",
-        "color.foreground.text.on-color.enabled": "5947239e2da0a12b76755221ef703232fe1615bf",
-        "color.foreground.text.on-color.disabled": "4708151b1e64d0c764a167be84771beb0fd1cacb",
-        "color.foreground.text.placeholder": "8f6cf8caf4b4f507d6056e3114b03a4a040a9232",
-        "color.foreground.text.helper": "5bbeac3f55a798c435fc1e732b7f630a936112d6",
-        "color.foreground.text.interactive": "e4d63fb4b32a921c2b255b7cca0cfcea15962690",
-        "color.foreground.accent": "1f25f3dcbc7f452dae37f0f674479815a630595a",
-        "color.foreground.feedback.success": "a0581a2266a820f41badf60f00b97e2f0309a19a",
-        "color.foreground.feedback.warning": "8a09e72383384352082338d2355fb98fade8c374",
-        "color.foreground.feedback.danger": "c925a7ed1e8295e3b31aad41251232f91cd1601d",
-        "color.foreground.feedback.information": "5922434805d84e4e1873361b543cf03722662de8",
-        "color.brand.primary.enabled": "373aa93e82f3dad7eab2275953e59d3e101d3c0f",
-        "color.brand.primary.hovered": "120724ee9bc6343674a58896644b6f510bdd1823",
-        "color.brand.primary.pressed": "9966ba23f5923ca99fffe59a4c8a5643f082c6dd",
-        "color.brand.primary.loading": "ee7a5e64cc4338f521c136900edf95e530ee2b7a",
-        "color.brand.primary.disabled": "0e7022f31098ed2da070b45d012f2a3889be690f",
-        "color.brand.secondary.enabled": "54e3aa7f44ee80f8ff40ca432ac0b2626b290c67",
-        "color.brand.secondary.hovered": "b8516a5c6a19fa9084b83f68d19881d517a0dfdd",
-        "color.brand.secondary.pressed": "3aa97ba3769ceb10b4eff1d67a108665794319b2",
-        "color.brand.secondary.loading": "563f786dfb34dca122d742eb0cf31e0b95bf7983",
-        "color.brand.secondary.disabled": "55e3dfb218935742725535ccd40b5250a007a323",
-        "spacing.0": "b6ba3c1aed8fb6f7773d92eb146c70e241240605",
-        "spacing.25": "168ecbb1e64b85376900c9bab35978ae96815903",
-        "spacing.50": "0110986c4bab3f82642a56ecdc6e2c07ffbe316e",
-        "spacing.100": "c232805aa0d1055ad23b13187236dffcb500765c",
-        "spacing.150": "51631dbfc5586febe5ca30477236e47d8929e9c0",
-        "spacing.200": "dd8a47eac434a9a2f8d8a0e7d21d07093798e331",
-        "spacing.250": "a73cc59be4e167cced67cd0e276554ca50f3f020",
-        "spacing.300": "85e389e31835ecb7e72a7baf2133b8948760a0fd",
-        "spacing.400": "28091b9a7ba548d040a9e000ac0ab6ccb26e4034",
-        "spacing.500": "8991ec783c2248377bf7317cb12525849387b1c1",
-        "spacing.600": "9b61b837b8095685c807c5002e0882e2f2287696",
-        "spacing.750": "7df11c336e1b964f6a89dfd1d761b7b6dda616f3",
-        "spacing.900": "aa6628528074650b3afcdab37accc1ce53a2b85c",
-        "spacing.1100": "6577af35a9f1f167f51949874dda646fbc6efe2c",
-        "borderRadius.100": "4289c0afa73e0fe4f40728c9b9d9bc2efcb3a3d1",
-        "borderRadius.200": "a1b814dc4cc51261e5104e15d695c9184a1977bd",
-        "borderRadius.300": "51465ca86d5700a62e6567fa6c46ae9c676366b5",
-        "borderRadius.400": "a50398c98b14d84ef18cf7dda03fbc4fe2e44e48",
-        "borderRadius.500": "8dfa625a237064dd76c500a1f059b7ede5d454af",
-        "borderWidth.100": "68d27a6bcac74679347bfc0b3002ade58986d299",
-        "borderWidth.200": "48725a67b2e1b75f47a49dd1a02c67c5abd06174",
-        "borderWidth.300": "f2e12af50ea19892b7e704413a9f73dd3bc9be5e"
+        "color.base.primary": "2a880c33e623ecb33565f95c2fea274a958db2b6",
+        "color.base.secondary": "6fa8a4cb43e2247e8a8094adce15ac2335405873",
+        "color.base.surface": "208050516e151d6c6004a292408340e84192a2f0",
+        "color.base.content": "b3c0dbccb07691f45e13e49aadd60f6894503985",
+        "color.base.danger": "376cb185a987282166f3727289e639e58b891739",
+        "color.base.warning": "c1426ee2f6fac6f9546e42622c981013712ab0f3",
+        "color.base.success": "304163dad8e950f9b7ee1694defd8722b8c9d7f7",
+        "color.base.information": "bb4f66c2f4e060e3639920fb3ef8c1b3fab915e7",
+        "color.surface.layer.01.default": "b3dd818721db9ca6413ffede7af861435825b048",
+        "color.surface.layer.01.hover": "b960edf6cf511e54ac1edd64b5583a9387040eed",
+        "color.surface.layer.01.disabled": "8a432b61b54d95a0cb87aeb23a97f00b49b8a67c",
+        "color.surface.layer.02.default": "34427c8ca2dc5cbe6e755fd98520f31b961a95ae",
+        "color.surface.layer.02.hover": "e793806d82766e3947b604d17d1d92a0d02cd297",
+        "color.surface.layer.02.disabled": "fdd0dff0407c38fd8a7ca10700faf5e68f481612",
+        "color.surface.layer.03.default": "55289323400fe66fb076257224515bd152e8198d",
+        "color.surface.layer.03.hover": "d8a64759be6ac28dad19d2a6a6345d490b77321a",
+        "color.surface.layer.03.disabled": "90d96c02909cf335ee1e6ef6f417d03df1adc0f4",
+        "color.surface.overlay": "2468f88661a752423a045637f7facbff38410f94",
+        "color.surface.accent": "acadbd6213b4c0fa4d52e78c743f4f131ea8a2db",
+        "color.surface.feedback.success.enabled": "ad9a14567f507a5b653345c209c9f4bea340bab8",
+        "color.surface.feedback.success.hovered": "473e4d04a27353ffc9ff3d05b4d64ddd67ffc5c9",
+        "color.surface.feedback.success.pressed": "dead5a8726ec8929f6bf73e782013616fac31a1e",
+        "color.surface.feedback.success.loading": "f908c64de8daa15bb88f28972970880142d1cbc6",
+        "color.surface.feedback.success.disabled": "8af23ff899d8690983078fedee6d71ebd8d6dab7",
+        "color.surface.feedback.warning.enabled": "8b63c3dd5e0c23d9bd4dc4377a09f9a4d84645d6",
+        "color.surface.feedback.warning.hovered": "5c0c96619dcf646ff0b722b53fc37e0ec5039de4",
+        "color.surface.feedback.warning.pressed": "e4d45768e93ab44b18b6d6609e3ee867c22fca17",
+        "color.surface.feedback.warning.loading": "67a0916b2d27d54f88d692472c72874f96a9b37a",
+        "color.surface.feedback.warning.disabled": "a0a5495d43e25ab4cfbd61408f8152b3ea2459da",
+        "color.surface.feedback.danger.enabled": "028ed8ded0a9ad7eba5f9625ed5470004091e623",
+        "color.surface.feedback.danger.hovered": "7d550abd9f2053adbb48d49cb3a8a43c625bd616",
+        "color.surface.feedback.danger.pressed": "46de124173ef74e8a5ff6589021ac05389ad58b4",
+        "color.surface.feedback.danger.loading": "2b9850ba8e46f9c7a05afb07af58ba2e29596bc0",
+        "color.surface.feedback.danger.disabled": "7d9f14b8fca49ebc4fb43e7cf42fbfebec85d246",
+        "color.surface.feedback.information.enabled": "96cfe6cd987793dcdf23570d517930106816899c",
+        "color.surface.feedback.information.hovered": "f0a545c3e90e41e47f2ecc917c003f3e115d45cd",
+        "color.surface.feedback.information.pressed": "3feb0b9e1c710831b7907dc50a42ef3ceb532fd0",
+        "color.surface.feedback.information.loading": "bd14c01abb0ed341240fe30af9c4d55f1c9c7d00",
+        "color.surface.feedback.information.disabled": "b15b18631181a086f80eb6503b06c97ffce8f90e",
+        "color.surface.field.01.default": "3c705e421cd1ebf384e28f6574c3b556cf174df0",
+        "color.surface.field.01.hover": "56a838c8bbbdbc53f76537a30bd930101337093b",
+        "color.surface.field.01.disabled": "2298c5916aedba05618b7b1ff37b5259af752060",
+        "color.surface.field.02.default": "986472201efab0d20273a072e8dd30bf8a6a5129",
+        "color.surface.field.02.hover": "a78435163047ed589b5ccf8d62b875d8544fd22f",
+        "color.surface.field.02.disabled": "b9cb0e8174c70d827126ff0421f9d4ddaaaa3fa0",
+        "color.surface.field.03.default": "ef26a091a8f1a71853a5752419c662fcdbfa3971",
+        "color.surface.field.03.hover": "1b7640ef2ae4edf738b9f9f52e401ce9a8d62946",
+        "color.surface.field.03.disabled": "2ab506c67d681ec6bf23f20a07dbd2fb65b323a9",
+        "color.surface.screen": "251caa383d249c083626a37e56ea96fb53109ecf",
+        "border.interactive.enabled": "2afe1073a2d1cde13e90d365d9a78094540f1a3a",
+        "border.interactive.pressed": "4bb1fcb4f6226a6f15e580d3bcd8a6f526d6e494",
+        "border.interactive.disabled": "c45fe24f3c3bb89ed143e78db2b1f25134b46555",
+        "border.strong.enabled": "43df25cb61585e3784d0fbdf721bd8c537b393c3",
+        "border.strong.hovered": "0d951935fdb776e02aeb54323e6456ff23b8fc32",
+        "border.strong.pressed": "5af94439b09678ce05028605090dc2ac376cfc4d",
+        "border.strong.loading": "f564e4dfd66e604c8812adb2d7b700697425dec6",
+        "border.strong.disabled": "84e58416f8e056c67d75c54461f84ee310fd7714",
+        "border.subtle.enabled": "515f58fb4bfea9d80be16d6d1dd6ed81f803ec89",
+        "border.subtle.hovered": "16e83378d77234ce11acbe2cf8a177e130100cd8",
+        "border.subtle.pressed": "636e08d9d04752375c0ef06a0c889544ffdc246d",
+        "border.subtle.loading": "bc25f9f39aa05face70d2535ba1df3db53273de7",
+        "border.subtle.disabled": "a6451d83114c3efa0b0eae6720db0aeaf312097a",
+        "border.feedback.success": "10f198de2bd806fb7635862dfcaf7ac42438d8b2",
+        "border.feedback.warning": "8265030e08d24e529cba7b88f379165bc3de87ef",
+        "border.feedback.danger": "7a0af02b040d1a946f1a65b78bdd9d161648c02b",
+        "border.feedback.information": "d61d83a29208b49692c17de905f07f0d375ebb44",
+        "color.foreground.text.primary.enabled": "d3d4f883d5cc3c82ea66cf88fe1c1a8a4e37a56a",
+        "color.foreground.text.primary.disabled": "c69ee3ba7095c0d7cf158899757457bd26f3c392",
+        "color.foreground.text.secondary.enabled": "fe0e72350c1cea6c2433a84aa1e4ed423f77dc15",
+        "color.foreground.text.secondary.disabled": "76ae7b6d6eb818b9d2ca73197ae6eb30482936ef",
+        "color.foreground.text.on-color.enabled": "5584fbc150d74a9d1a63c2c70ead5f71ba1d4374",
+        "color.foreground.text.on-color.disabled": "5bbf5a509ac5448a83938ab7977bdd5a3ea1fcfd",
+        "color.foreground.text.placeholder": "7e7c0bb3784c6459fdb301a79f4d6c01796e8f32",
+        "color.foreground.text.helper": "c0d15c70ebb66ffe767421484a7e9b00552188c3",
+        "color.foreground.text.interactive": "c8776059287750fc8ebed4de8958cedb6bfa990e",
+        "color.foreground.accent": "3dd912b2904b12cdc7a501b7c417d33f6da2ecac",
+        "color.foreground.feedback.success": "065aacc593aa1c8dc8893f1632cdf1acde22629c",
+        "color.foreground.feedback.warning": "711cdb437de2124e76efec50161ed8aeda9a624a",
+        "color.foreground.feedback.danger": "e8ac37fa21bcd08d5c7821d3e5ef4b454fb30fac",
+        "color.foreground.feedback.information": "184d844319482fc040ca04c7bb55a444ed7de831",
+        "color.brand.primary.enabled": "d119662f3bf8d32e28f9ab789d4bf0a119e8a78c",
+        "color.brand.primary.hovered": "b03c146eb046dffeb0f3f3a95fc3f79e3a25a00b",
+        "color.brand.primary.pressed": "b37eb758656d43a9b9773ad10be5cd1a6f1e8a93",
+        "color.brand.primary.loading": "4a8c460e3c1f0b22e64f50baf6ce6eb85999b3dd",
+        "color.brand.primary.disabled": "c43c1f772da2ad0cfa4ff4e0e7f319d1c55d8204",
+        "color.brand.secondary.enabled": "5a21b708ccabeeda016046332c83e4497d111309",
+        "color.brand.secondary.hovered": "6bf6af4ef1963ade1d90672a437660c73cca754c",
+        "color.brand.secondary.pressed": "7baaae3d89fe239043d890870bac4e295b065261",
+        "color.brand.secondary.loading": "6ffd08c879d23ffe271585c8b5ade63b348035bd",
+        "color.brand.secondary.disabled": "c3f2549834c3b5a784be9104cc383c50fb947290",
+        "spacing.0": "7cd43a1eb554e9cd52beef18c86e3f74aafb2c22",
+        "spacing.25": "cb835205ce0bc96e45d6f559e4b9551f0bc494ad",
+        "spacing.50": "598e3d0044fbf5d326dde4d5f36fbede3505f5b9",
+        "spacing.100": "5e67432b3ac95961e66fbaedec597e6091069f1d",
+        "spacing.150": "cfb46684041c9889d45913c56d9af58fea419df4",
+        "spacing.200": "6b8eca77acd00d78fd2608e7065fae364c2af3d7",
+        "spacing.250": "6f9d691ad9244404eab57701f244bda1733bcbec",
+        "spacing.300": "e5b52491bbfd137f418b71d80455e60464355806",
+        "spacing.400": "e2e826f70f89d5dab31a84b4679af42a7f75f415",
+        "spacing.500": "fef0a7e90bbbb254baef892b4920afc5ce2994cc",
+        "spacing.600": "c0364a849e75bafb078e358ae5e7e375fcacb706",
+        "spacing.750": "8aad959bac6d9ef81510a6674287138ccf9d7dbd",
+        "spacing.900": "6eccd6895d05b8ae343844460e5fe8687b2b644e",
+        "spacing.1100": "8e51e1e423cf60bb410334ac90de9e1d7f9a6061",
+        "borderRadius.100": "b36c1e1c36e4d43ae016da458e93d688cb610470",
+        "borderRadius.200": "1402cc5cfdffe7b060d7a2a36f66ec4ccd237e7f",
+        "borderRadius.300": "7cd592e26dda59edbd41d0ff64fd454e15b9ec20",
+        "borderRadius.400": "7e9c5fbc650d106bb68ed6a5a43a8f67a8312b3d",
+        "borderRadius.500": "16ece2d13c6eee79d1dbb40070e45ff687415cfd",
+        "borderWidth.100": "ca256541b36f44b333ac2c1bdc4a86a177f0a47b",
+        "borderWidth.200": "7c76604bf7352e4bb76b04acb306912dd895c5b1",
+        "borderWidth.300": "0f1e6f6b68c1541e991f63d3dfadf6720c721b60"
       },
-      "$figmaCollectionId": "VariableCollectionId:6:91",
-      "$figmaModeId": "6:1",
-      "group": "semantics"
+      "$figmaCollectionId": "VariableCollectionId:2209:81503",
+      "$figmaModeId": "2209:34"
     }
   ],
   "$metadata": {
@@ -2647,16 +2467,19 @@
       "PRIMITIVES/Palette",
       "PRIMITIVES/Scale",
       "PRIMITIVES/Modifiers",
-      "SEMANTICS/Dimensions",
+      "SEMANTICS/Brand X/Schemes",
+      "SEMANTICS/Brand X/Typeset",
+      "SEMANTICS/Brand X/Dimensions",
       "SEMANTICS/Presets",
       "SEMANTICS/Brand",
       "SEMANTICS/Surface",
       "SEMANTICS/Foreground",
       "SEMANTICS/Border",
       "SEMANTICS/ Typeset",
-      "BRANDS/Brand A/Surface",
       "BRANDS/Brand A/Scheme",
-      "BRANDS/Brand A/Typeset"
+      "BRANDS/Brand A/Typeset",
+      "BRANDS/Brand B/Scheme",
+      "BRANDS/Brand B/Typeset"
     ]
   }
 }
