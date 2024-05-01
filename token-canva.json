@@ -1295,7 +1295,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "darken",
-                    "value": "{modifier.darken.100}",
+                    "value": "{opacity.state.surface.hovered}",
                     "space": "hsl",
                     "color": "#ffffff"
                   }
@@ -1970,7 +1970,59 @@
       }
     }
   },
-  "BRANDS/Brand A/Scheme": {
+  "COMPONENTS/Button": {
+    "color": {
+      "button": {
+        "primary": {
+          "background": {
+            "enabled": {
+              "value": "{color.brand.primary.enabled}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.brand.primary.hovered}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.brand.primary.pressed}",
+              "type": "color"
+            },
+            "loading": {
+              "value": "{color.brand.primary.loading}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.brand.primary.disabled}",
+              "type": "color"
+            }
+          },
+          "foreground": {
+            "enabled": {
+              "value": "{color.foreground.text.on-color.enabled}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{color.foreground.text.on-color.enabled}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{color.foreground.text.on-color.enabled}",
+              "type": "color"
+            },
+            "loading": {
+              "value": "{color.foreground.text.on-color.enabled}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{color.foreground.text.on-color.disabled}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "BRANDS/McDonalds/Scheme": {
     "color": {
       "base": {
         "primary": {
@@ -2008,7 +2060,7 @@
       }
     }
   },
-  "BRANDS/Brand A/Typeset": {
+  "BRANDS/McDonalds/Typeset": {
     "fontFamilies": {
       "primary": {
         "value": "Inter",
@@ -2021,11 +2073,11 @@
       }
     }
   },
-  "BRANDS/Brand B/Scheme": {
+  "BRANDS/Burger King/Scheme": {
     "color": {
       "base": {
         "primary": {
-          "value": "{color.sky.600}",
+          "value": "{color.blue.600}",
           "type": "color"
         },
         "secondary": {
@@ -2033,23 +2085,23 @@
           "type": "color"
         },
         "surface": {
-          "value": "#f5f7ff",
+          "value": "#EDEDED",
           "type": "color"
         },
         "content": {
-          "value": "{color.neutral.950}",
+          "value": "#1f1203",
           "type": "color"
         },
         "danger": {
-          "value": "{color.red.500}",
+          "value": "#FF3508",
           "type": "color"
         },
         "warning": {
-          "value": "{color.ambar.500}",
+          "value": "#FFB200",
           "type": "color"
         },
         "success": {
-          "value": "{color.green.600}",
+          "value": "#34B53A",
           "type": "color"
         },
         "information": {
@@ -2059,10 +2111,10 @@
       }
     }
   },
-  "BRANDS/Brand B/Typeset": {
+  "BRANDS/Burger King/Typeset": {
     "fontFamilies": {
       "primary": {
-        "value": "Poppins",
+        "value": "Inter",
         "type": "fontFamilies"
       },
       "secondary": {
@@ -2192,8 +2244,8 @@
         "PRIMITIVES/Palette": "source",
         "PRIMITIVES/Scale": "source",
         "PRIMITIVES/Modifiers": "source",
-        "BRANDS/Brand A/Scheme": "enabled",
-        "BRANDS/Brand A/Typeset": "enabled"
+        "BRANDS/McDonalds/Scheme": "enabled",
+        "BRANDS/McDonalds/Typeset": "enabled"
       },
       "$figmaStyleReferences": {
         "typography.display.lg": "S:a7f097732bfb5ff838042a942b451162384ba7b2,",
@@ -2339,9 +2391,7 @@
         "SEMANTICS/Border": "enabled",
         "PRIMITIVES/Palette": "source",
         "PRIMITIVES/Scale": "source",
-        "PRIMITIVES/Modifiers": "source",
-        "BRANDS/Brand B/Scheme": "enabled",
-        "BRANDS/Brand B/Typeset": "enabled"
+        "PRIMITIVES/Modifiers": "source"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
@@ -2476,10 +2526,11 @@
       "SEMANTICS/Foreground",
       "SEMANTICS/Border",
       "SEMANTICS/ Typeset",
-      "BRANDS/Brand A/Scheme",
-      "BRANDS/Brand A/Typeset",
-      "BRANDS/Brand B/Scheme",
-      "BRANDS/Brand B/Typeset"
+      "COMPONENTS/Button",
+      "BRANDS/McDonalds/Scheme",
+      "BRANDS/McDonalds/Typeset",
+      "BRANDS/Burger King/Scheme",
+      "BRANDS/Burger King/Typeset"
     ]
   }
 }
